@@ -178,27 +178,3 @@ df_clean = preprocessor.handle_missing_values(df)
 # Split and encode
 X, y = preprocessor.split_features_target(df_clean)
 X_encoded = preprocessor.encode_categorical_variables(X)
-
-# Continue with custom pipeline...
-```
-
-## 📞 Contact
-
-**Author**: Sundari Oktamiyunda  
-**Project**: ML Experimentation - Kriteria 1  
-**Repository**: Eksperimen_SML_Sundari-Oktamiyunda
-
-## 🔗 Next Steps
-
-This preprocessed dataset is ready for:
-- **Kriteria 2**: Model training with MLflow
-- **Kriteria 3**: CI/CD pipeline implementation  
-- **Kriteria 4**: Model monitoring and logging
-
-## 📝 License
-
-This project is for educational purposes. Dataset source: Kaggle Stroke Prediction Dataset.
-
----
-
-*Generated as part of ML System and MLOps Learning - Kriteria 1 (Skilled Level)*
