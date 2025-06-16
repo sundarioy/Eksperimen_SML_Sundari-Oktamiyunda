@@ -1,9 +1,3 @@
-"""
-Unit Tests for Stroke Data Preprocessing Automation
-Author: Sundari Oktamiyunda
-Description: Unit tests for automated preprocessing pipeline
-"""
-
 import unittest
 import pandas as pd
 import numpy as np

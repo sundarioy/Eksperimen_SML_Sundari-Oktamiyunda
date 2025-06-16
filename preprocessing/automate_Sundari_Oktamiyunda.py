@@ -1,9 +1,3 @@
-"""
-Stroke Prediction Data Preprocessing Automation
-Author: Sundari Oktamiyunda
-Description: Automated preprocessing pipeline for stroke prediction dataset
-"""
-
 import pandas as pd
 import numpy as np
 import os
@@ -238,8 +232,8 @@ def main():
     """Main function to run preprocessing pipeline"""
     
     # Configuration
-    input_file = '../stroke_data_raw/healthcare-dataset-stroke-data.csv'
-    output_dir = 'stroke_data_preprocessing'
+    input_file = '../dataset_raw/healthcare-dataset-stroke-data.csv'
+    output_dir = 'data_preprocessing'
     
     # Initialize preprocessor
     preprocessor = StrokeDataPreprocessor(random_state=42)
